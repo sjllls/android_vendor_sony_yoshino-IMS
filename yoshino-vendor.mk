@@ -1,4 +1,4 @@
-# Copyright (C) 2017-2019 The MoKee Open Source Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,6 +21,40 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/bin/sony-modem-switcher:system/bin/sony-modem-switcher \
     vendor/sony/yoshino/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/yoshino/proprietary/bin/updatemiscta:system/bin/updatemiscta \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fs_empty.mbn:system/etc/customization/modem/amss_fs_empty.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_airtel_in_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_airtel_in_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ais_th_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_ais_th_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_asiapacific_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_asiapacific_tw_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_cn_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_cn_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_china_mobile_hk_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_cht_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_cht_tw_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_csl_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_csl_hk_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ctm_mo_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_ctm_mo_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_dtac_th_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_dtac_th_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_du_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_du_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_etisalat_ae_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_etisalat_ae_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_fareastone_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_fareastone_tw_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_gteb_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_gteb_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_hutch_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_hutch_hk_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ir51_ir92_ims_gte_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_ir51_ir92_ims_gte_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_ir51_ir92_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_ir51_ir92_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_m1_sg_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_m1_sg_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_megafon_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_megafon_ru_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_mts_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_mts_ru_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_orange_poland_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_orange_poland_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_pccw_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_pccw_hk_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_reliance_com_in_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_reliance_com_in_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_reliance_jio_in_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_reliance_jio_in_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_singtel_sg_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_singtel_sg_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_smartone_hk_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_smartone_hk_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_starhub_sg_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_starhub_sg_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_stc_sa_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_stc_sa_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tele2_ru_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_tele2_ru_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tmobile_us_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_tmobile_us_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_truemove_th_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_truemove_th_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_tstar_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_tstar_tw_ims_tar.mbn \
+    vendor/sony/yoshino/proprietary/etc/customization/modem/amss_fsg_maple_dsds_twm_tw_ims_tar.mbn:system/etc/customization/modem/amss_fsg_maple_dsds_twm_tw_ims_tar.mbn \
     vendor/sony/yoshino/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
     vendor/sony/yoshino/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
     vendor/sony/yoshino/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
@@ -122,6 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/etc/init/idds.rc:system/etc/init/idds.rc \
     vendor/sony/yoshino/proprietary/etc/init/taimport.rc:system/etc/init/taimport.rc \
     vendor/sony/yoshino/proprietary/etc/init/updatemiscta.rc:system/etc/init/updatemiscta.rc \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.sonyericsson.android.semcrilextension.xml:system/etc/permissions/com.sonyericsson.android.semcrilextension.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.camera.addon.xml:system/etc/permissions/com.sonymobile.camera.addon.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.imageprocessor.xml:system/etc/permissions/com.sonymobile.imageprocessor.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.miscta.xml:system/etc/permissions/com.sonymobile.miscta.xml \
@@ -129,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/framework/com.sonymobile.camera.addon_impl.jar:system/framework/com.sonymobile.camera.addon_impl.jar \
     vendor/sony/yoshino/proprietary/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar:system/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar \
     vendor/sony/yoshino/proprietary/framework/com.sonymobile.miscta_impl.jar:system/framework/com.sonymobile.miscta_impl.jar \
+    vendor/sony/yoshino/proprietary/framework/semcrilextension.jar:system/framework/semcrilextension.jar \
     vendor/sony/yoshino/proprietary/vendor/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin \
     vendor/sony/yoshino/proprietary/vendor/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin \
     vendor/sony/yoshino/proprietary/lib/libFidoCryptoJNI.so:system/lib/libFidoCryptoJNI.so \
@@ -592,11 +628,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:system/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -615,7 +654,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:system/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
     vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
+    vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
+    vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:system/framework/com.quicinc.cne.constants-V2.0-java.jar \
+    vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar:system/framework/com.quicinc.cne.constants-V2.1-java.jar \
     vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:system/framework/com.quicinc.cne.server-V1.0-java.jar \
+    vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
+    vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
+    vendor/sony/yoshino/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
     vendor/sony/yoshino/proprietary/framework/dpm.jar:system/framework/dpm.jar \
     vendor/sony/yoshino/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/sony/yoshino/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
@@ -623,9 +669,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/sony/yoshino/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/sony/yoshino/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/sony/yoshino/proprietary/framework/uimlpalibrary.jar:system/framework/uimlpalibrary.jar \
     vendor/sony/yoshino/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/sony/yoshino/proprietary/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar:system/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar \
     vendor/sony/yoshino/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
+    vendor/sony/yoshino/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
     vendor/sony/yoshino/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/sony/yoshino/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/sony/yoshino/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
@@ -879,7 +927,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/sony/yoshino/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/sony/yoshino/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/sony/yoshino/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/sony/yoshino/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/sony/yoshino/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/sony/yoshino/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
@@ -919,6 +966,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/lib/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcore.so \
     vendor/sony/yoshino/proprietary/vendor/lib/lib-rtpdaemoninterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpdaemoninterface.so \
     vendor/sony/yoshino/proprietary/vendor/lib/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpsl.so \
+    vendor/sony/yoshino/proprietary/vendor/lib/lib-siputility.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-siputility.so \
     vendor/sony/yoshino/proprietary/vendor/lib/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-uceservice.so \
     vendor/sony/yoshino/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
     vendor/sony/yoshino/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
@@ -1103,6 +1151,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/lib64/lib-rtpcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpcore.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpdaemoninterface.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so \
+    vendor/sony/yoshino/proprietary/vendor/lib64/lib-siputility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-siputility.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
@@ -1252,7 +1301,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/sony/yoshino/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/sony/yoshino/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+    vendor/sony/yoshino/proprietary/vendor/radio/qcril_database/upgrade/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/upgrade/0_initial.sql \
+    vendor/sony/yoshino/proprietary/vendor/radio/qcril_database/upgrade/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/upgrade/1_version_intro.sql \
+    vendor/sony/yoshino/proprietary/vendor/radio/qcril_database/upgrade/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/upgrade/2_version_add_wps_config.sql \
+    vendor/sony/yoshino/proprietary/vendor/radio/qcril_database/upgrade/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/upgrade/3_version_update_wps_config.sql
 
 PRODUCT_PACKAGES += \
     libbtnv \
