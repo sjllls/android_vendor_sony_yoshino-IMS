@@ -133,9 +133,33 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := SemcAlbum-albumLive-release
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/priv-app/SemcAlbum-albumLive-release/SemcAlbum-albumLive-release.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := SemcCameraUI-xxhdpi-release
 LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := proprietary/priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := SemcMusic
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/priv-app/SemcMusic/SemcMusic.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -160,6 +184,18 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := TimeShiftCamera-release
 LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := proprietary/priv-app/TimeShiftCamera-release/TimeShiftCamera-release.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := home-sonyMobile-release
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/priv-app/home-sonyMobile-release/home-sonyMobile-release.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS

@@ -156,12 +156,21 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/etc/init/idds.rc:system/etc/init/idds.rc \
     vendor/sony/yoshino/proprietary/etc/init/taimport.rc:system/etc/init/taimport.rc \
     vendor/sony/yoshino/proprietary/etc/init/updatemiscta.rc:system/etc/init/updatemiscta.rc \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.sony.device.xml:system/etc/permissions/com.sony.device.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.sonyericsson.android.semcrilextension.xml:system/etc/permissions/com.sonyericsson.android.semcrilextension.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.album.internal.xml:system/etc/permissions/com.sonymobile.album.internal.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.album.xml:system/etc/permissions/com.sonymobile.album.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.camera.addon.xml:system/etc/permissions/com.sonymobile.camera.addon.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.home.resourceprovider.xml:system/etc/permissions/com.sonymobile.home.resourceprovider.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.imageprocessor.xml:system/etc/permissions/com.sonymobile.imageprocessor.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.miscta.xml:system/etc/permissions/com.sonymobile.miscta.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/privapp-permissions-sony.xml:system/etc/permissions/privapp-permissions-sony.xml \
     vendor/sony/yoshino/proprietary/framework/com.qualcomm.qti.camera.jar:system/framework/com.qualcomm.qti.camera.jar \
+    vendor/sony/yoshino/proprietary/framework/com.sony.device.jar:system/framework/com.sony.device.jar \
+    vendor/sony/yoshino/proprietary/framework/com.sonymobile.album.internal.jar:system/framework/com.sonymobile.album.internal.jar \
+    vendor/sony/yoshino/proprietary/framework/com.sonymobile.album.jar:system/framework/com.sonymobile.album.jar \
     vendor/sony/yoshino/proprietary/framework/com.sonymobile.camera.addon_impl.jar:system/framework/com.sonymobile.camera.addon_impl.jar \
+    vendor/sony/yoshino/proprietary/framework/com.sonymobile.home.resourceprovider.jar:system/framework/com.sonymobile.home.resourceprovider.jar \
     vendor/sony/yoshino/proprietary/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar:system/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar \
     vendor/sony/yoshino/proprietary/framework/com.sonymobile.miscta_impl.jar:system/framework/com.sonymobile.miscta_impl.jar \
     vendor/sony/yoshino/proprietary/framework/semcrilextension.jar:system/framework/semcrilextension.jar \
@@ -600,9 +609,12 @@ PRODUCT_PACKAGES += \
     ArtFilterCamera-xxhdpi-release \
     CameraCommon \
     CameraPanorama-release \
+    SemcAlbum-albumLive-release \
     SemcCameraUI-xxhdpi-release \
+    SemcMusic \
     SoundPhotoCamera-xxhdpi-release \
     TimeShiftCamera-release \
+    home-sonyMobile-release \
     ffu \
     tad_static \
     wait4tad_static
