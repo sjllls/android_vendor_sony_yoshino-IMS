@@ -5,4 +5,3 @@ service taimport /system/bin/taimport
     disabled
     group system
     oneshot
-    seclabel u:r:taimport:s0
