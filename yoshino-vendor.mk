@@ -621,7 +621,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/lib/libsys-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsys-utils.so \
     vendor/sony/yoshino/proprietary/vendor/lib/libta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libta.so \
     vendor/sony/yoshino/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
-    vendor/sony/yoshino/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.solibscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.solibscveFaceRecognition.so \
+    vendor/sony/yoshino/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
     vendor/sony/yoshino/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
     vendor/sony/yoshino/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so \
     vendor/sony/yoshino/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libadsp_fd_skel.so \
@@ -723,6 +723,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.sonyericsson.audioeffectif.xml:system/etc/permissions/com.sonyericsson.audioeffectif.xml \
+    vendor/sony/yoshino/proprietary/etc/permissions/com.sonymobile.sonyaudioeffect.xml:system/etc/permissions/com.sonymobile.sonyaudioeffect.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/sony/yoshino/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
@@ -1604,7 +1606,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     CNEService \
-    SoundEnhancement \
     WfdService \
     com.qualcomm.location \
     dpmserviceapp \
@@ -1612,6 +1613,8 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     WfdCommon \
+    semc_audioeffectif \
+    sonyaudioeffect \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
 endif
