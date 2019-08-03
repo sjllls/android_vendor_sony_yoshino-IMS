@@ -785,6 +785,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/sony/yoshino/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/sony/yoshino/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
+    vendor/sony/yoshino/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
     vendor/sony/yoshino/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
     vendor/sony/yoshino/proprietary/lib/lib-imsvtutils.so:system/lib/lib-imsvtutils.so \
     vendor/sony/yoshino/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
@@ -954,7 +955,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
     vendor/sony/yoshino/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/sony/yoshino/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/sony/yoshino/proprietary/vendor/bin/hw/display_cb:$(TARGET_COPY_OUT_VENDOR)/bin/hw/display_cb \
     vendor/sony/yoshino/proprietary/vendor/bin/hw/touchbacklightd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/touchbacklightd \
     vendor/sony/yoshino/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/sony/yoshino/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
@@ -1127,7 +1127,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/sony/yoshino/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/sony/yoshino/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
-    vendor/sony/yoshino/proprietary/vendor/etc/init/init.display_cb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.display_cb.rc \
     vendor/sony/yoshino/proprietary/vendor/etc/init/init.touchbacklightd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.touchbacklightd.rc \
     vendor/sony/yoshino/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/sony/yoshino/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
@@ -1183,7 +1182,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/lib/hw/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
     vendor/sony/yoshino/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8998.so \
     vendor/sony/yoshino/proprietary/vendor/lib/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8998.so \
-    vendor/sony/yoshino/proprietary/vendor/lib/hw/libdisplay.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libdisplay.default.so \
     vendor/sony/yoshino/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8998.so \
     vendor/sony/yoshino/proprietary/vendor/lib/hw/thermal.somc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.somc.so \
     vendor/sony/yoshino/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.esepowermanager@1.0-impl.so \
@@ -1398,7 +1396,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yoshino/proprietary/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8998.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8998.so \
-    vendor/sony/yoshino/proprietary/vendor/lib64/hw/libdisplay.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libdisplay.default.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8998.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/hw/thermal.somc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.somc.so \
     vendor/sony/yoshino/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
